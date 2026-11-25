@@ -32,7 +32,6 @@ RUN apt-get update && \
     nodejs \
     nginx \
     supervisor \
-    git \
     gosu \
     && (apt-get install -y libglib2.0-0t64 2>/dev/null || apt-get install -y libglib2.0-0) \
     && rm -rf /var/lib/apt/lists/*
